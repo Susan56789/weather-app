@@ -13,7 +13,7 @@ font-weight: bold;
 
 
 .app{
-  background-image: url('./images/weather.jpg');
+  background-image: url('./images/cold.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease-out;
@@ -38,6 +38,7 @@ padding: 25px;
 .search-box{
   width: 100%;
   margin: 0 0 75px;
+  color: #111;
 }
 
 .search-box  .search-bar{
@@ -75,6 +76,11 @@ padding: 25px;
 
 .weather-box{
   text-align: center;
+  box-shadow: 0 0px 10px #111;
+  width: auto;
+  margin: auto;
+  justify-content:space-between;
+  position: relative;
 }
 
 .weather-box .temp{
